@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan("com.course")
-@MapperScan("com.course.system.mapper")    //找到mapper文件夹下的那些接口
+@MapperScan("com.course.server.mapper")    //找到mapper文件夹下的那些接口
 public class SystemApplication {
 
 	private static final Logger LOG = LoggerFactory.getLogger(SystemApplication.class);
